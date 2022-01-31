@@ -2,10 +2,10 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+
+  background-color: var(--color2);
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgb(84, 106, 47, 0.3);
 }
 
 .nav__list {
@@ -14,7 +14,7 @@
 }
 
 .nav__link {
-  color: rgb(100, 100, 100);
+  color: rgb(121, 121, 121);
   position: relative;
 }
 

@@ -6,11 +6,15 @@
   background-color: var(--yellow);
   display: flex;
   top: 0;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 32px;
 }
 
+#no-mobile > img {
+  margin-bottom: 25px;
+}
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
