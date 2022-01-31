@@ -48,3 +48,7 @@
   display: block;
   margin-bottom: 10px;
 }
+
+h6 > i {
+  color: tomato;
+}
