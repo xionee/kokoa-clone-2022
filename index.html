@@ -5,13 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Welcome to Loopy Talk</title>
   </head>
 
-  <body>
+  <body id="index-body">
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>Yes Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -26,21 +26,32 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to Loopy Talk</h1>
+      <img
+        src="https://item.kakaocdn.net/do/75e402fe47122beeed4e853466d8b943f43ad912ad8dd55b04db6a64cddaf76d"
+      />
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+        If you have an Account, log in with your email or phone number♥
       </p>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input name="password" type="password" placeholder="Password" required />
       <input type="submit" value="Log In" />
 
-      <a href="#">Find Kokoa Account or Password</a>
+      <a href="#">Find Account or Password</a>
     </form>
 
     <div id="no-mobile">
+      <img
+        src="https://item.kakaocdn.net/do/49af77ed647962e739c3f261899795256fb33a4b4cf43b6605fc7a1e262f0845"
+      />
       <span>Your screen is too big</span>
     </div>
 

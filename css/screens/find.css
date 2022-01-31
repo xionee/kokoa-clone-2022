@@ -19,6 +19,8 @@
 }
 
 .open-chat__header {
+  font-size: 14px;
+  color: var(--grey);
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
@@ -41,7 +43,7 @@
 }
 
 .open-post__hashtags {
-  text-transform: uppercase;
+  font-weight: 300;
   opacity: 0.6;
 }
 
@@ -71,15 +73,15 @@
 }
 
 .open-post__member-status {
-  color: yellowgreen;
+  color: var(--yellow);
 }
 
 .open-post__photo {
   position: relative;
 }
 .open-post__photo img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   border-radius: 10px;
 }
 

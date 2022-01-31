@@ -6,6 +6,7 @@
   background-color: var(--yellow);
   display: flex;
   top: 0;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 32px;
